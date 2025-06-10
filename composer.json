@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.1",
-		"microsoft/azure-storage-common": "~1.5"
+		"microsoft/azure-storage-common": "dev-php8_4"
     },
     "autoload": {
         "psr-4": {
