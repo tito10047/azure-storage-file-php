@@ -1029,7 +1029,7 @@ interface IFile
     public function listFileRange(
         $share,
         $path,
-        Range $range = null,
+        ?Range $range = null,
         ?FileModels\FileServiceOptions $options = null
     );
 
@@ -1050,7 +1050,7 @@ interface IFile
     public function listFileRangeAsync(
         $share,
         $path,
-        Range $range = null,
+        ?Range $range = null,
         ?FileModels\FileServiceOptions $options = null
     );
 
