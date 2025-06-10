@@ -13,6 +13,12 @@
         "php": ">=7.1",
 		"microsoft/azure-storage-common": "dev-php8_4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:tito10047/azure-storage-common-php.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "MicrosoftAzure\\Storage\\File\\": "src/File"
